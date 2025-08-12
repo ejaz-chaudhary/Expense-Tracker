@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: capitalize;
+  background: linear-gradient(to right top, #fcb1d1, #d7cfcf, #5de6c1);
+
+}
+.Income {
+  color: green;
+  background-color: rgba(119, 168, 119, 0.349);
+  padding: 8px;
+  border: none;
+  border-radius: 15px;
+}
+.Expense {
+  color: red;
+  background-color: rgba(172, 114, 114, 0.281);
+  padding: 8px;
+  border: none;
+  border-radius: 15px;
+}
+.maintext {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.maintext1{
+  font-weight: 500;
+  font-size: 70px;
+    color: #362d42fd;
+  }
+.wrapper {
+  text-align: center;
+  margin: 10px 600px;
+}
+
+.balance {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.7rem;
+  transition: all 0.3s ease;
+}
+
+.search {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
